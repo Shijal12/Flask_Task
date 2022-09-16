@@ -9,7 +9,7 @@ def index():
               json_object = json.load(openfile)
 
             return jsonify(json_object)
-            
+            #comment
 #Create an API to return  firstname, lastname in lowercase along with status in JSON format  based on id provided.
 @app.route('/api/users/<int:id>', methods=['GET']) #127.0.0.1:5000/api/users/7
 def username(id):
